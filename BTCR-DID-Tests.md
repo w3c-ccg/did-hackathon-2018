@@ -6,18 +6,18 @@ Under BTCR Method 1.0, any existing legacy P2PKH transaction with an unspent tip
 
 Right now we don't support newer segwit P2WPKH transaction, but should be possible in 1.0. However P2SH and P2WSH will have to wait.
 
-This test also tests tsref encoders — by default, output 0 is the revocation/rotation "tip", which is correct in this case.
+This test also tests txref encoders — by default, output 0 is the revocation/rotation "tip", which is correct one in this case.
 
-> TESTNAME: Test #1 — BTCR DID MVP Valid & Unrevoked
-> DID TRANSACTION ID: 80871cf043c1d96f3d716f5bc02daa15a5e534b2a00e81a530fb40aa07ceceb6
-> DID ADDRESS: mo8pqoxeu4EWSisZ8n94niyvPVJzDL3epg
-> DID WIF Private Key: Contact ChristopherA@LifeWithAlacrity.com
-> TXREF: did:btcr:x705-jzv2-qqaz-7vuz
-> CONFIRMED IN BLOCK: 1353983
-> BLOCKINDEX: 83
-> OUTPUTINDEX: 0
-> TIP ADDRESS: mqkvMtYfTufj3iEXjYHmnopZrsowMFxrKw
-> IMPLICIT DID DOCUMENT:
+  TESTNAME: Test #1 — BTCR DID MVP Valid & Unrevoked
+  DID TRANSACTION ID: 80871cf043c1d96f3d716f5bc02daa15a5e534b2a00e81a530fb40aa07ceceb6
+  DID ADDRESS: mo8pqoxeu4EWSisZ8n94niyvPVJzDL3epg
+  DID WIF Private Key: Contact ChristopherA@LifeWithAlacrity.com
+  TXREF: did:btcr:x705-jzv2-qqaz-7vuz
+  CONFIRMED IN BLOCK: 1353983
+  BLOCKINDEX: 83
+  OUTPUTINDEX: 0
+  TIP ADDRESS: mqkvMtYfTufj3iEXjYHmnopZrsowMFxrKw
+  IMPLICIT DID DOCUMENT:
 ```json
 {
     "@context": "https://w3id.org/btcr/v1",
@@ -50,8 +50,8 @@ This test also tests tsref encoders — by default, output 0 is the revocation/r
     ]
 }
 ```
-> SUPPLEMENTARY DID Document: UNDEFINED
-> CONSTRUCTED DID Document:
+  SUPPLEMENTARY DID Document: UNDEFINED
+  CONSTRUCTED DID Document:
 ```json
 {
     "@context": "https://w3id.org/btcr/v1",
@@ -89,6 +89,7 @@ This test also tests tsref encoders — by default, output 0 is the revocation/r
 This verifiable credential was properly signed & valid (using https://json-ld.org/playground-dev/), and a check of the transaction output address should prove there is no transaction associated with it, thus this credential should be considered unrevoked.
 
 Essentially this is a self-signed claim, with ID of /credential/0 that says that it claims it calls itslef "BTCR Test #1" and that it knows did:btcr:xyv2-xzyq-qqm5-tyke, which is Christopher Allen's test DID.
+
 ```json
 {
   "@context": [
@@ -114,25 +115,24 @@ Essentially this is a self-signed claim, with ID of /credential/0 that says that
 }
 ```
 
- (This Verifiable Claim is based an a pre-release version of the spec and signature method — Contact ChristopherA@LifeWithAlacrity.com if you need the WIF private key to update this credential).
+(This Verifiable Claim is based an a pre-release version of the spec and signature method — Contact ChristopherA@LifeWithAlacrity.com if you need the WIF private key to update this credential).
 
 ### Test #2 — BTCR DID MVP (Minimum Viable Product) Valid but REVOKED DID Document Example
 
 This test is an example of an MVP that is revoked because the tip address has been spent. This DID, and all claims issued by the key in this DID should be considered revoked. NOTE: the special case that someone funds the TIP address. A unrevoked DID isn't as simple as that there unspent funds on an address, it is that there are also no output transactions associated the tip address.
 
 
- > TESTNAME: Test #2 — BTCR DID MVP (Minimum Viable Product) Valid but REVOKED
- > DID TRANSACTION ID: 2f1838f481be7b4f4d37542a751aa3a27be7114f798feb24ff0fc764730973d0
- > DID ADDRESS: n3oaLYUpxwEnQQS8zcX3zGiLUgFi5dH313
- > DID WIF Private Key: Contact ChristopherA@LifeWithAlacrity.com
- > TXREF: did:btcr:xz35-jzv2-qqs2-9wjt
- > CONFIRMED IN BLOCK: 1354001
- > BLOCKINDEX: 83
- > OUTPUTINDEX: 0
- >
- > TIP ADDRESS: mqkvMtYfTufj3iEXjYHmnopZrsowMFxrKw
- > REVOCATION TRANSACTION: be5be4b2c4e530b49af139a8448ae2ae8b5882f2e7f5c7908eca0268f72494e9
- > IMPLICIT DID DOCUMENT:
+  TESTNAME: Test #2 — BTCR DID MVP (Minimum Viable Product) Valid but REVOKED
+  DID TRANSACTION ID: 2f1838f481be7b4f4d37542a751aa3a27be7114f798feb24ff0fc764730973d0
+  DID ADDRESS: n3oaLYUpxwEnQQS8zcX3zGiLUgFi5dH313
+  DID WIF Private Key: Contact ChristopherA@LifeWithAlacrity.com
+  TXREF: did:btcr:xz35-jzv2-qqs2-9wjt
+  CONFIRMED IN BLOCK: 1354001
+  BLOCKINDEX: 83
+  OUTPUTINDEX: 0
+  TIP ADDRESS: mqkvMtYfTufj3iEXjYHmnopZrsowMFxrKw
+  REVOCATION TRANSACTION: be5be4b2c4e530b49af139a8448ae2ae8b5882f2e7f5c7908eca0268f72494e9
+  IMPLICIT DID DOCUMENT:
 ```json
 {
     "@context": "https://w3id.org/btcr/v1",
@@ -165,8 +165,8 @@ This test is an example of an MVP that is revoked because the tip address has be
     ]
 }
 ```
-> SUPPLEMENTARY DID Document: UNDEFINED
-> CONSTRUCTED DID Document:
+  SUPPLEMENTARY DID Document: UNDEFINED
+  CONSTRUCTED DID Document:
 ```json
 {
     "@context": "https://w3id.org/btcr/v1",
