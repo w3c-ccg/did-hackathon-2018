@@ -1,3 +1,9 @@
+# specific to this repo
+
+BTCR-WIP.txt
+btcr-did-test-keys.md
+
+#### global defaults
 # Logs
 logs
 *.log
@@ -56,4 +62,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
