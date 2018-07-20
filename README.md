@@ -7,10 +7,15 @@
     * [btcr-tx-playground](https://weboftrustinfo.github.io/btcr-tx-playground.github.io/) - HTML/JS playground using the [btcr-did-tools-js](https://github.com/WebOfTrustInfo/btcr-did-tools-js) library
         * [Source](https://github.com/WebOfTrustInfo/btcr-tx-playground.github.io)
     * [BTCR-Electron](https://github.com/AnthonyRonning/btcr-electron) - Electron playground for the btcr-did-js library.
-* TXREF Conversion Libraries
-    * [txref-conversion-js](https://github.com/WebOfTrustInfo/txref-conversion-js) - Node.js txref conversion library; supports txref-ext
-    * [txref-conversion-java](https://github.com/WebOfTrustInfo/txref-conversion-java) - Java txref conversion library; supports txref-ext
-    * [txref-conversion-golang](https://github.com/kulpreet/txref) - Golang txref conversion library
-    * [txref-conversion-python](https://github.com/WebOfTrustInfo/txref-conversion-python) - Golang txref conversion library
-* BTCR Creation/Resolution Libraries
-    * [btcr-did-tools-js](https://github.com/WebOfTrustInfo/btcr-did-tools-js) - Node.js library for creating/resolving BTCR DIDs. Has browserify scripts for running in browser
+* Libraries
+    * TXREF Conversion Libraries
+        * [txref-conversion-js](https://github.com/WebOfTrustInfo/txref-conversion-js) - Node.js txref conversion library; supports txref-ext
+        * [txref-conversion-java](https://github.com/WebOfTrustInfo/txref-conversion-java) - Java txref conversion library; supports txref-ext
+        * [txref-conversion-golang](https://github.com/kulpreet/txref) - Golang txref conversion library
+        * [txref-conversion-python](https://github.com/WebOfTrustInfo/txref-conversion-python) - Golang txref conversion library
+    * BTCR Creation/Resolution Libraries
+        * [btcr-did-tools-js](https://github.com/WebOfTrustInfo/btcr-did-tools-js) - Node.js library for creating/resolving BTCR DIDs. Has browserify scripts for running in browser
+* About BTCR DIDs (previous writings and presentations; sorted by most recent to least)
+    * [BTCR Resolver](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/btcr-resolver.md)
+    * [Visualization of how BTCR works](https://www.icloud.com/keynote/0Bcwqiyw6RGvMZgDyFt-prI_g#BTCR)
+    * [BTCR DIDs and DDOs - may be out of date](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/btcr-dids-ddos.md)
