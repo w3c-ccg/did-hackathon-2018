@@ -68,4 +68,24 @@ A really rough-draft of high level MVP wallet.
 
 11. Verify other web of trust simple endorsements about me, save them locally.
 
- 
+12. Contacts directory / Rolodex
+    - search and scroll
+    - Import a DID
+    - - pasted from online
+    - - scanned qrcode
+    - - sent via trusted contact
+    - "browse" single contact
+    - - display attributes
+    - - click to launch connection to an endpoint
+    - - show log of recent connections initiated through this app
+    - - display contact's qrcode for export to another device
+    - - DID-authenicate this contact
+    - - mark DID confirmed through alternate channel
+
+13. My calling cards
+    - Display qrcode with my calling card
+    - - fresh DID seeded with business identity
+    - - fresh DID seeded with friends-and-family identity
+    - - fresh DID with blank identity
+    - - an old DID
+    - Attach an attribute to one of my identities
