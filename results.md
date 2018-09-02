@@ -1,7 +1,7 @@
 
 ## Christopher Allen
 
-[BTCR DID Test Cases](BTCR-DID-Tests.md)
+[BTCR DID Resolver Test Cases](BTCR-DID-Tests.md)
 
 ## Joe Andrieu
 
