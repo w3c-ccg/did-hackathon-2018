@@ -38,16 +38,16 @@ The service is at https://btcr-service.opdup.com (/ is a 404) and the repo is at
 
 All endpoints return JSON objects, content-type as application/json
 
-1. /txref/:query/decode
+1. `/txref/:query/decode`
 Returns a decoded txref passed as query, e.g. https://btcr-service.opdup.com/txref/txtest1:x705-jzv2-qqaz-7vuz/decode
 
-2. /txref/:query/txid
+2. `/txref/:query/txid`
 Returns a txid and the utxo index for txref passed as query, e.g. https://btcr-service.opdup.com/txref/txtest1:x705-jzv2-qqaz-7vuz/txid
 
-3. /tx/:query
+3. `/tx/:query`
 Returns the decoded transaction for the transaction hash passed as query, e.g. https://btcr-service.opdup.com/tx/80871cf043c1d96f3d716f5bc02daa15a5e534b2a00e81a530fb40aa07ceceb6
 
-4. /addr/:query/spends
+4. `/addr/:query/spends`
 Returns all the transactions associated with the address (limited to 100 for now), in reverse chronological order, for example, https://btcr-service.opdup.com/addr/mqkvMtYfTufj3iEXjYHmnopZrsowMFxrKw/spends
 
 The examples above use the Test #1 transaction/DID posted by Christopher here https://github.com/w3c-ccg/did-hackathon-2018/blob/master/BTCR-DID-Tests.md
