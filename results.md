@@ -1,3 +1,12 @@
+
+## Christopher Allen
+
+[BTCR DID Test Cases](BTCR-DID-Tests.md)
+
+## Joe Andrieu
+
+[BTCR Playground Goals](playground-goals.md)
+
 ## Ryan Grant and Dan Pape
 
 - Dan and Ryan investigated BlockSci and libbitcoin as infrastructure for building a chain-tip-following method resolver in C++.  
@@ -5,6 +14,10 @@
 - Ryan spent some time investigating client-side diddoc patches, but security assumptions currently allow the resolver library to own this problem.  
 - The group discussed the algorithm for following the tip and how the algorithm must evolve when p2sh is supported. Ryan is writing up this algorithm with examples.
 - Digital Contract Design plans to put a BTCR resolver online for public use in the near future.
+
+## Kim Hamilton Duffy
+
+Updates to BTCR playground and library dependencies
 
 ## Yancy Ribbens
 
@@ -42,7 +55,6 @@ The examples above use the Test #1 transaction/DID posted by Christopher here ht
 I am debating build an endpoint to generate a DID based off a txref, and/or a resolver as next steps to see if we can actually follow the tip with the /addr/.*/spends endpoint.
 
 
-## Kim Duffy
 
-Updates to BTCR playground and libraries it depends on
+
 

@@ -1,7 +1,6 @@
 # did-hackathon-2018
 
 
-
 * [BTCR-DID-Tests](./BTCR-DID-Tests.md) — A number of testnet registered DIDs, along with sample valid DID Documents, some unrevoked, others rotated, others revoked, along with signed verifiable claims using those DIDs.
 * Playgrounds
     * [btcr-tx-playground](https://weboftrustinfo.github.io/btcr-tx-playground.github.io/) - HTML/JS playground using the [btcr-did-tools-js](https://github.com/WebOfTrustInfo/btcr-did-tools-js) library
@@ -21,3 +20,4 @@
     * [BTCR Resolver](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/btcr-resolver.md)
     * [Visualization of how BTCR works](https://www.icloud.com/keynote/0Bcwqiyw6RGvMZgDyFt-prI_g#BTCR)
     * [BTCR DIDs and DDOs - may be out of date](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/btcr-dids-ddos.md)
+* [Hackathon results](results.md)
